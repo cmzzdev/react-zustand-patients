@@ -1,5 +1,7 @@
-import PatienForm from "./Components/PatienForm";
+import { ToastContainer } from "react-toastify";
+import PatienForm from "./Components/PatientForm";
 import PatientsList from "./Components/PatientsList";
+import "react-toastify/ReactToastify.css";
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
           <PatientsList />
         </div>
       </div>
+      <ToastContainer />
     </>
   );
 }
